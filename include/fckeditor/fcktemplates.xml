@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ * FCKeditor - The text editor for Internet - http://www.fckeditor.net
+ * Copyright (C) 2003-2008 Frederico Caldeira Knabben
+ *
+ * == BEGIN LICENSE ==
+ *
+ * Licensed under the terms of any of the following licenses at your
+ * choice:
+ *
+ *  - GNU General Public License Version 2 or later (the "GPL")
+ *    http://www.gnu.org/licenses/gpl.html
+ *
+ *  - GNU Lesser General Public License Version 2.1 or later (the "LGPL")
+ *    http://www.gnu.org/licenses/lgpl.html
+ *
+ *  - Mozilla Public License Version 1.1 or later (the "MPL")
+ *    http://www.mozilla.org/MPL/MPL-1.1.html
+ *
+ * == END LICENSE ==
+ *
+ * This is the sample templates definitions file. It makes the "templates"
+ * command completely customizable.
+ *
+ * See FCKConfig.TemplatesXmlPath in the configuration file.
+-->
+<Templates imagesBasePath="fck_template/images/">
+
+    	<Template title="Has a description and 10 Seperators" image="template1.gif">
+		<Description>Top 10 Template</Description>
+		<Html>
+			<![CDATA[
+
+                                <script>
+                                
+                                $('domcument').ready(function(){
+                                
+                                    var top_10 = $('.top-10');
+                                    top_10.css('display','none').last().css('display','block');
+                                    var top_ten_nav = '';
+                                    for(i=0;i< top_10.length; i++) {
+                                        var id = i + 1;
+                                        if(i+1 == top_10.length) {
+                                            top_ten_nav = top_ten_nav + '<a class="current top_ten_pager" title="'+id+'" href="#'+id+'">'+top_10.length+'</a>';
+                                        } else {
+                                            
+                                            top_ten_nav = top_ten_nav + '<a class="top_ten_pager" title="'+id+'" href="#'+id+'" rel="history">'+id+'</a>';
+                                        }
+                                    }
+                                    
+                                    $('#top-ten-nav').css('width','100%').html(top_ten_nav);
+                                    $('.top_ten_pager').click(function(){
+                                        $('.top_ten_pager').removeClass('current');
+                                        $(this).addClass('current');
+                                        var index = parseInt($(this).attr('title') - 1);
+                                        top_10.css('display','none');
+                                        $('.top-10:eq('+index+')').css('display','block');
+                                        
+                                    });
+                                    
+                                });
+                                
+                            </script>
+                            
+                                <div id="top-ten-template">
+                                    
+                                    <p>Top 10 descriptionsdsdsd</p>
+                                    <div id="top-ten-nav" class="top pagination"></div>
+                                    <div style="clear:both"> </div>
+                                    
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class='top-10'>
+                                        <h3>Top 10 title</h3>
+                                        <table>
+                                            <tr>
+                                                <td><img src="http://www.studentnews.co.za/media/default/no_image_100.jpg"></td>
+                                                <td valign="top">About</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    
+                                </div>
+                
+			]]>
+		</Html>
+	</Template>
+
+</Templates>

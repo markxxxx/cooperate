@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond $1 !media/
+RewriteCond %{REQUEST_URI} !\.(css|gif|jpg|jpeg|png|pdf|js|php|html|xml|ico|swf|xls|csv|ttf|ttc|otf|eot|woff?|woff2?|)$ [NC]
+RewriteRule (.*) index.php [QSA]

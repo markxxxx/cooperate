@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc741882-35cf-435c-ac64-bd92b0d13c97" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/coact/assets/images/logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/fpdf/fpdf-custom.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/project_controller.php" afterPath="$PROJECT_DIR$/controllers/project_controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/coact/project_index.tpl" afterPath="$PROJECT_DIR$/views/coact/project_index.tpl" />
+    </list>
+    <ignored path="magna.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="magna" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="project_controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/project_controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="294" column="23" selection-start-line="294" selection-start-column="13" selection-end-line="294" selection-end-column="23" />
+              <folding>
+                <element signature="n#before_action#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="e#166#372#0#PHP" expanded="false" />
+                <element signature="n#index#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="e#633#1456#0#PHP" expanded="false" />
+                <element signature="e#1642#1931#0#PHP" expanded="false" />
+                <element signature="e#1956#2334#0#PHP" expanded="false" />
+                <element signature="e#1967#2333#1#PHP" expanded="false" />
+                <element signature="n#add#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="e#2428#2628#0#PHP" expanded="false" />
+                <element signature="e#2665#2954#0#PHP" expanded="false" />
+                <element signature="e#3107#3370#0#PHP" expanded="false" />
+                <element signature="e#3118#3369#1#PHP" expanded="false" />
+                <element signature="e#3434#3519#0#PHP" expanded="false" />
+                <element signature="e#3529#6297#0#PHP" expanded="false" />
+                <element signature="e#3622#3719#0#PHP" expanded="false" />
+                <element signature="e#3918#6216#0#PHP" expanded="false" />
+                <element signature="e#3962#5724#0#PHP" expanded="false" />
+                <element signature="e#5051#5312#0#PHP" expanded="false" />
+                <element signature="e#5515#5640#0#PHP" expanded="false" />
+                <element signature="e#5660#5724#0#PHP" expanded="false" />
+                <element signature="e#5742#6033#0#PHP" expanded="false" />
+                <element signature="e#5840#6033#0#PHP" expanded="false" />
+                <element signature="e#6049#6216#0#PHP" expanded="false" />
+                <element signature="e#6227#6297#0#PHP" expanded="false" />
+                <element signature="n#spec#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="e#6522#6611#0#PHP" expanded="false" />
+                <element signature="e#6787#7076#0#PHP" expanded="false" />
+                <element signature="e#7107#8038#0#PHP" expanded="false" />
+                <element signature="e#9471#9810#0#PHP" expanded="false" />
+                <element signature="e#9701#9787#0#PHP" expanded="false" />
+                <element signature="e#9712#9786#1#PHP" expanded="false" />
+                <element signature="e#9860#10845#0#PHP" expanded="false" />
+                <element signature="e#9871#10844#1#PHP" expanded="false" />
+                <element signature="e#10856#12516#0#PHP" expanded="false" />
+                <element signature="e#11039#12239#0#PHP" expanded="false" />
+                <element signature="e#11085#11747#0#PHP" expanded="false" />
+                <element signature="e#11519#11747#0#PHP" expanded="false" />
+                <element signature="e#11765#12056#0#PHP" expanded="false" />
+                <element signature="e#11863#12056#0#PHP" expanded="false" />
+                <element signature="e#12072#12239#0#PHP" expanded="false" />
+                <element signature="e#12250#12516#0#PHP" expanded="false" />
+                <element signature="n#spec_print#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="n#statusNew#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="n#statusDeclined#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="n#statusAccepted#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="n#statusInstalled#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="n#complete#0;n#ProjectController#0;n#!!top" expanded="false" />
+                <element signature="n#assign#0;n#ProjectController#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appointment_controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/appointment_controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#before_action#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#244#450#0#PHP" expanded="false" />
+                <element signature="n#index#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#1023#1348#0#PHP" expanded="false" />
+                <element signature="e#1379#2586#0#PHP" expanded="false" />
+                <element signature="e#2679#2807#0#PHP" expanded="false" />
+                <element signature="e#2690#2806#1#PHP" expanded="false" />
+                <element signature="e#3171#3267#0#PHP" expanded="false" />
+                <element signature="n#add#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#3626#3707#0#PHP" expanded="false" />
+                <element signature="e#3717#8970#0#PHP" expanded="false" />
+                <element signature="e#3749#4734#0#PHP" expanded="false" />
+                <element signature="e#4161#4531#0#PHP" expanded="false" />
+                <element signature="e#4312#4531#0#PHP" expanded="false" />
+                <element signature="e#4656#4734#0#PHP" expanded="false" />
+                <element signature="e#4993#8770#0#PHP" expanded="false" />
+                <element signature="e#5030#7840#0#PHP" expanded="false" />
+                <element signature="e#5185#5743#0#PHP" expanded="false" />
+                <element signature="e#5830#6116#0#PHP" expanded="false" />
+                <element signature="e#6493#7840#0#PHP" expanded="false" />
+                <element signature="e#6660#7218#0#PHP" expanded="false" />
+                <element signature="e#7305#7591#0#PHP" expanded="false" />
+                <element signature="e#8133#8328#0#PHP" expanded="false" />
+                <element signature="e#8445#8573#0#PHP" expanded="false" />
+                <element signature="e#8658#8770#0#PHP" expanded="false" />
+                <element signature="e#8782#8970#0#PHP" expanded="false" />
+                <element signature="e#8859#8960#0#PHP" expanded="false" />
+                <element signature="n#FormAdd#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#9092#9189#0#PHP" expanded="false" />
+                <element signature="e#9199#12212#0#PHP" expanded="false" />
+                <element signature="e#9247#10344#0#PHP" expanded="false" />
+                <element signature="e#9780#10150#0#PHP" expanded="false" />
+                <element signature="e#9931#10150#0#PHP" expanded="false" />
+                <element signature="e#10454#12127#0#PHP" expanded="false" />
+                <element signature="e#10502#11597#0#PHP" expanded="false" />
+                <element signature="e#10720#10742#0#PHP" expanded="false" />
+                <element signature="e#11207#11229#0#PHP" expanded="false" />
+                <element signature="e#11529#11597#0#PHP" expanded="false" />
+                <element signature="e#11615#11940#0#PHP" expanded="false" />
+                <element signature="e#11728#11940#0#PHP" expanded="false" />
+                <element signature="e#11956#12127#0#PHP" expanded="false" />
+                <element signature="e#12138#12212#0#PHP" expanded="false" />
+                <element signature="n#task#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#12272#12872#0#PHP" expanded="false" />
+                <element signature="e#12383#12447#0#PHP" expanded="false" />
+                <element signature="e#12499#12549#0#PHP" expanded="false" />
+                <element signature="n#events#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#13177#13378#0#PHP" expanded="false" />
+                <element signature="e#13188#13377#1#PHP" expanded="false" />
+                <element signature="n#team_week_view#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#13638#13963#0#PHP" expanded="false" />
+                <element signature="e#13994#15201#0#PHP" expanded="false" />
+                <element signature="e#15294#15422#0#PHP" expanded="false" />
+                <element signature="e#15305#15421#1#PHP" expanded="false" />
+                <element signature="n#event_view#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#15506#16146#0#PHP" expanded="false" />
+                <element signature="n#team_calendar#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#16719#17208#0#PHP" expanded="false" />
+                <element signature="e#17255#18500#0#PHP" expanded="false" />
+                <element signature="e#17626#18495#0#PHP" expanded="false" />
+                <element signature="e#17691#17859#0#PHP" expanded="false" />
+                <element signature="e#17910#18236#0#PHP" expanded="false" />
+                <element signature="e#18664#18828#0#PHP" expanded="false" />
+                <element signature="e#19201#19484#0#PHP" expanded="false" />
+                <element signature="e#19212#19483#1#PHP" expanded="false" />
+                <element signature="n#update#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="n#edit#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#19675#19740#0#PHP" expanded="false" />
+                <element signature="n#delete#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="n#delete_selected#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#19974#20096#0#PHP" expanded="false" />
+                <element signature="e#20014#20092#0#PHP" expanded="false" />
+                <element signature="n#ics#0;n#AppointmentController#0;n#!!top" expanded="false" />
+                <element signature="e#20254#20299#0#PHP" expanded="false" />
+                <marker date="1529495820115" expanded="false" signature="1039:1329" placeholder="SELECT *,p.i..projects..." />
+                <marker date="1529495820115" expanded="false" signature="1392:2550" placeholder="SELECT *,t.i..tasks..." />
+                <marker date="1529495820115" expanded="false" signature="2633:2653" placeholder="SELECT * FRO..groups..." />
+                <marker date="1529495820115" expanded="false" signature="3070:3106" placeholder="SELECT id FR..tasks..." />
+                <marker date="1529495820115" expanded="false" signature="5201:5724" placeholder="SELECT *,p.i..projects..." />
+                <marker date="1529495820115" expanded="false" signature="6676:7199" placeholder="SELECT *,p.i..projects..." />
+                <marker date="1529495820115" expanded="false" signature="8146:8288" placeholder="SELECT * FRO..tasks..." />
+                <marker date="1529495820115" expanded="false" signature="13654:13944" placeholder="SELECT *,p.i..projects..." />
+                <marker date="1529495820115" expanded="false" signature="14007:15165" placeholder="SELECT *,t.i..tasks..." />
+                <marker date="1529495820115" expanded="false" signature="15248:15268" placeholder="SELECT * FRO..groups..." />
+                <marker date="1529495820115" expanded="false" signature="15522:16106" placeholder="SELECT *,p.i..projects..." />
+                <marker date="1529495820115" expanded="false" signature="16733:17194" placeholder="SELECT p.nam..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appointment_team_week_view.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/coact/appointment_team_week_view.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extra_fullcalendar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/coact/assets/js/pages/extra_fullcalendar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/include/fpdf/fpdf-custom.php" />
+        <option value="$PROJECT_DIR$/controllers/project_controller.php" />
+        <option value="$PROJECT_DIR$/views/coact/project_index.tpl" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magna" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magna" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magna" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magna" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magna" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magna" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magna" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\www\html\magna\include\fpdf" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc741882-35cf-435c-ac64-bd92b0d13c97" name="Default" comment="" />
+      <created>1529571705618</created>
+      <option name="number" value="Default" />
+      <updated>1529571705618</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17857143" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/controllers/project_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="366" column="50" selection-start-line="366" selection-start-column="50" selection-end-line="366" selection-end-column="50" />
+          <folding>
+            <element signature="n#before_action#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="e#166#372#0#PHP" expanded="false" />
+            <element signature="n#index#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="e#633#1456#0#PHP" expanded="false" />
+            <element signature="e#1642#1931#0#PHP" expanded="false" />
+            <element signature="e#1956#2334#0#PHP" expanded="false" />
+            <element signature="e#1967#2333#1#PHP" expanded="false" />
+            <element signature="n#add#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="e#2428#2628#0#PHP" expanded="false" />
+            <element signature="e#2665#2954#0#PHP" expanded="false" />
+            <element signature="e#3107#3370#0#PHP" expanded="false" />
+            <element signature="e#3118#3369#1#PHP" expanded="false" />
+            <element signature="e#3434#3519#0#PHP" expanded="false" />
+            <element signature="e#3529#6297#0#PHP" expanded="false" />
+            <element signature="e#3622#3719#0#PHP" expanded="false" />
+            <element signature="e#3918#6216#0#PHP" expanded="false" />
+            <element signature="e#3962#5724#0#PHP" expanded="false" />
+            <element signature="e#5051#5312#0#PHP" expanded="false" />
+            <element signature="e#5515#5640#0#PHP" expanded="false" />
+            <element signature="e#5660#5724#0#PHP" expanded="false" />
+            <element signature="e#5742#6033#0#PHP" expanded="false" />
+            <element signature="e#5840#6033#0#PHP" expanded="false" />
+            <element signature="e#6049#6216#0#PHP" expanded="false" />
+            <element signature="e#6227#6297#0#PHP" expanded="false" />
+            <element signature="n#spec#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="e#6522#6611#0#PHP" expanded="false" />
+            <element signature="e#6787#7076#0#PHP" expanded="false" />
+            <element signature="e#7107#8038#0#PHP" expanded="false" />
+            <element signature="e#9471#9810#0#PHP" expanded="false" />
+            <element signature="e#9701#9787#0#PHP" expanded="false" />
+            <element signature="e#9712#9786#1#PHP" expanded="false" />
+            <element signature="e#9860#10845#0#PHP" expanded="false" />
+            <element signature="e#9871#10844#1#PHP" expanded="false" />
+            <element signature="e#10856#12516#0#PHP" expanded="false" />
+            <element signature="e#11039#12239#0#PHP" expanded="false" />
+            <element signature="e#11085#11747#0#PHP" expanded="false" />
+            <element signature="e#11519#11747#0#PHP" expanded="false" />
+            <element signature="e#11765#12056#0#PHP" expanded="false" />
+            <element signature="e#11863#12056#0#PHP" expanded="false" />
+            <element signature="e#12072#12239#0#PHP" expanded="false" />
+            <element signature="e#12250#12516#0#PHP" expanded="false" />
+            <element signature="n#spec_print#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#statusNew#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#statusDeclined#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#statusAccepted#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#statusInstalled#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#complete#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#assign#0;n#ProjectController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/fpdf/fpdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/fpdf/fpdf-custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <element signature="n#PDF_Rotate#0;n#!!top" expanded="false" />
+            <element signature="n#RotatedText#0;n#PDF_project_spec#0;n#!!top" expanded="false" />
+            <element signature="n#ImprovedTable#0;n#PDF_project_spec#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/fpdf/fpdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/fpdf/fpdf-custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56465006">
+          <caret line="241" column="41" selection-start-line="241" selection-start-column="41" selection-end-line="241" selection-end-column="41" />
+          <folding>
+            <element signature="n#PDF_Rotate#0;n#!!top" expanded="false" />
+            <element signature="n#RotatedText#0;n#PDF_project_spec#0;n#!!top" expanded="false" />
+            <element signature="n#ImprovedTable#0;n#PDF_project_spec#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2735632">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="27" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/coact/project_index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5471264">
+          <caret line="151" column="70" selection-start-line="151" selection-start-column="70" selection-end-line="151" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/coact/appointment_team_week_view.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/coact/assets/js/pages/extra_fullcalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/project_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="294" column="23" selection-start-line="294" selection-start-column="13" selection-end-line="294" selection-end-column="23" />
+          <folding>
+            <element signature="n#before_action#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="e#166#372#0#PHP" expanded="false" />
+            <element signature="n#index#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="e#633#1456#0#PHP" expanded="false" />
+            <element signature="e#1642#1931#0#PHP" expanded="false" />
+            <element signature="e#1956#2334#0#PHP" expanded="false" />
+            <element signature="e#1967#2333#1#PHP" expanded="false" />
+            <element signature="n#add#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="e#2428#2628#0#PHP" expanded="false" />
+            <element signature="e#2665#2954#0#PHP" expanded="false" />
+            <element signature="e#3107#3370#0#PHP" expanded="false" />
+            <element signature="e#3118#3369#1#PHP" expanded="false" />
+            <element signature="e#3434#3519#0#PHP" expanded="false" />
+            <element signature="e#3529#6297#0#PHP" expanded="false" />
+            <element signature="e#3622#3719#0#PHP" expanded="false" />
+            <element signature="e#3918#6216#0#PHP" expanded="false" />
+            <element signature="e#3962#5724#0#PHP" expanded="false" />
+            <element signature="e#5051#5312#0#PHP" expanded="false" />
+            <element signature="e#5515#5640#0#PHP" expanded="false" />
+            <element signature="e#5660#5724#0#PHP" expanded="false" />
+            <element signature="e#5742#6033#0#PHP" expanded="false" />
+            <element signature="e#5840#6033#0#PHP" expanded="false" />
+            <element signature="e#6049#6216#0#PHP" expanded="false" />
+            <element signature="e#6227#6297#0#PHP" expanded="false" />
+            <element signature="n#spec#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="e#6522#6611#0#PHP" expanded="false" />
+            <element signature="e#6787#7076#0#PHP" expanded="false" />
+            <element signature="e#7107#8038#0#PHP" expanded="false" />
+            <element signature="e#9471#9810#0#PHP" expanded="false" />
+            <element signature="e#9701#9787#0#PHP" expanded="false" />
+            <element signature="e#9712#9786#1#PHP" expanded="false" />
+            <element signature="e#9860#10845#0#PHP" expanded="false" />
+            <element signature="e#9871#10844#1#PHP" expanded="false" />
+            <element signature="e#10856#12516#0#PHP" expanded="false" />
+            <element signature="e#11039#12239#0#PHP" expanded="false" />
+            <element signature="e#11085#11747#0#PHP" expanded="false" />
+            <element signature="e#11519#11747#0#PHP" expanded="false" />
+            <element signature="e#11765#12056#0#PHP" expanded="false" />
+            <element signature="e#11863#12056#0#PHP" expanded="false" />
+            <element signature="e#12072#12239#0#PHP" expanded="false" />
+            <element signature="e#12250#12516#0#PHP" expanded="false" />
+            <element signature="n#spec_print#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#statusNew#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#statusDeclined#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#statusAccepted#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#statusInstalled#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#complete#0;n#ProjectController#0;n#!!top" expanded="false" />
+            <element signature="n#assign#0;n#ProjectController#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/appointment_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#before_action#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#244#450#0#PHP" expanded="false" />
+            <element signature="n#index#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#1023#1348#0#PHP" expanded="false" />
+            <element signature="e#1379#2586#0#PHP" expanded="false" />
+            <element signature="e#2679#2807#0#PHP" expanded="false" />
+            <element signature="e#2690#2806#1#PHP" expanded="false" />
+            <element signature="e#3171#3267#0#PHP" expanded="false" />
+            <element signature="n#add#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#3626#3707#0#PHP" expanded="false" />
+            <element signature="e#3717#8970#0#PHP" expanded="false" />
+            <element signature="e#3749#4734#0#PHP" expanded="false" />
+            <element signature="e#4161#4531#0#PHP" expanded="false" />
+            <element signature="e#4312#4531#0#PHP" expanded="false" />
+            <element signature="e#4656#4734#0#PHP" expanded="false" />
+            <element signature="e#4993#8770#0#PHP" expanded="false" />
+            <element signature="e#5030#7840#0#PHP" expanded="false" />
+            <element signature="e#5185#5743#0#PHP" expanded="false" />
+            <element signature="e#5830#6116#0#PHP" expanded="false" />
+            <element signature="e#6493#7840#0#PHP" expanded="false" />
+            <element signature="e#6660#7218#0#PHP" expanded="false" />
+            <element signature="e#7305#7591#0#PHP" expanded="false" />
+            <element signature="e#8133#8328#0#PHP" expanded="false" />
+            <element signature="e#8445#8573#0#PHP" expanded="false" />
+            <element signature="e#8658#8770#0#PHP" expanded="false" />
+            <element signature="e#8782#8970#0#PHP" expanded="false" />
+            <element signature="e#8859#8960#0#PHP" expanded="false" />
+            <element signature="n#FormAdd#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#9092#9189#0#PHP" expanded="false" />
+            <element signature="e#9199#12212#0#PHP" expanded="false" />
+            <element signature="e#9247#10344#0#PHP" expanded="false" />
+            <element signature="e#9780#10150#0#PHP" expanded="false" />
+            <element signature="e#9931#10150#0#PHP" expanded="false" />
+            <element signature="e#10454#12127#0#PHP" expanded="false" />
+            <element signature="e#10502#11597#0#PHP" expanded="false" />
+            <element signature="e#10720#10742#0#PHP" expanded="false" />
+            <element signature="e#11207#11229#0#PHP" expanded="false" />
+            <element signature="e#11529#11597#0#PHP" expanded="false" />
+            <element signature="e#11615#11940#0#PHP" expanded="false" />
+            <element signature="e#11728#11940#0#PHP" expanded="false" />
+            <element signature="e#11956#12127#0#PHP" expanded="false" />
+            <element signature="e#12138#12212#0#PHP" expanded="false" />
+            <element signature="n#task#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#12272#12872#0#PHP" expanded="false" />
+            <element signature="e#12383#12447#0#PHP" expanded="false" />
+            <element signature="e#12499#12549#0#PHP" expanded="false" />
+            <element signature="n#events#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#13177#13378#0#PHP" expanded="false" />
+            <element signature="e#13188#13377#1#PHP" expanded="false" />
+            <element signature="n#team_week_view#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#13638#13963#0#PHP" expanded="false" />
+            <element signature="e#13994#15201#0#PHP" expanded="false" />
+            <element signature="e#15294#15422#0#PHP" expanded="false" />
+            <element signature="e#15305#15421#1#PHP" expanded="false" />
+            <element signature="n#event_view#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#15506#16146#0#PHP" expanded="false" />
+            <element signature="n#team_calendar#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#16719#17208#0#PHP" expanded="false" />
+            <element signature="e#17255#18500#0#PHP" expanded="false" />
+            <element signature="e#17626#18495#0#PHP" expanded="false" />
+            <element signature="e#17691#17859#0#PHP" expanded="false" />
+            <element signature="e#17910#18236#0#PHP" expanded="false" />
+            <element signature="e#18664#18828#0#PHP" expanded="false" />
+            <element signature="e#19201#19484#0#PHP" expanded="false" />
+            <element signature="e#19212#19483#1#PHP" expanded="false" />
+            <element signature="n#update#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="n#edit#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#19675#19740#0#PHP" expanded="false" />
+            <element signature="n#delete#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="n#delete_selected#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#19974#20096#0#PHP" expanded="false" />
+            <element signature="e#20014#20092#0#PHP" expanded="false" />
+            <element signature="n#ics#0;n#AppointmentController#0;n#!!top" expanded="false" />
+            <element signature="e#20254#20299#0#PHP" expanded="false" />
+            <marker date="1529495820115" expanded="false" signature="1039:1329" placeholder="SELECT *,p.i..projects..." />
+            <marker date="1529495820115" expanded="false" signature="1392:2550" placeholder="SELECT *,t.i..tasks..." />
+            <marker date="1529495820115" expanded="false" signature="2633:2653" placeholder="SELECT * FRO..groups..." />
+            <marker date="1529495820115" expanded="false" signature="3070:3106" placeholder="SELECT id FR..tasks..." />
+            <marker date="1529495820115" expanded="false" signature="5201:5724" placeholder="SELECT *,p.i..projects..." />
+            <marker date="1529495820115" expanded="false" signature="6676:7199" placeholder="SELECT *,p.i..projects..." />
+            <marker date="1529495820115" expanded="false" signature="8146:8288" placeholder="SELECT * FRO..tasks..." />
+            <marker date="1529495820115" expanded="false" signature="13654:13944" placeholder="SELECT *,p.i..projects..." />
+            <marker date="1529495820115" expanded="false" signature="14007:15165" placeholder="SELECT *,t.i..tasks..." />
+            <marker date="1529495820115" expanded="false" signature="15248:15268" placeholder="SELECT * FRO..groups..." />
+            <marker date="1529495820115" expanded="false" signature="15522:16106" placeholder="SELECT *,p.i..projects..." />
+            <marker date="1529495820115" expanded="false" signature="16733:17194" placeholder="SELECT p.nam..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

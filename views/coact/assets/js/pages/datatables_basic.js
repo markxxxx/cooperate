@@ -1,0 +1,123 @@
+/* ------------------------------------------------------------------------------
+*
+*  # Basic datatables
+*
+*  Specific JS code additions for datatable_basic.html page
+*
+*  Version: 1.0
+*  Latest update: Aug 1, 2015
+*
+* ---------------------------------------------------------------------------- */
+
+$(function() {
+
+
+    // Table setup
+    // ------------------------------
+
+    // Setting datatable defaults
+    $.extend( $.fn.dataTable.defaults, {
+        autoWidth: false,
+        columnDefs: [{ 
+            orderable: false,
+            width: '100px',
+            targets: [ 5 ]
+        }],
+        lengthMenu: [ 10, 25, 50, 75, 100 ], // ADP 2019/02/20 Amount of records to show
+        //pageLength: 100,                     // ADP 2019/02/20 Default amount of records to show
+        dom: '<"datatable-header"fl><"datatable-scroll"t><"datatable-footer"ip>',
+        language: {
+            search: '<span>Filter:</span> _INPUT_',
+            searchPlaceholder: 'Type to filter...',
+            lengthMenu: '<span>Show:</span> _MENU_',
+            paginate: { 'first': 'First', 'last': 'Last', 'next': '&rarr;', 'previous': '&larr;' }
+        },
+        drawCallback: function () {
+            $(this).find('tbody tr').slice(-3).find('.dropdown, .btn-group').addClass('dropup');
+        },
+        preDrawCallback: function() {
+            $(this).find('tbody tr').slice(-3).find('.dropdown, .btn-group').removeClass('dropup');
+        }
+    });
+
+
+    // Basic datatable
+    $('.datatable-basic').DataTable();
+
+    $('.datatable-basic-6').DataTable({
+        columnDefs: [{ 
+            orderable: false,
+            width: '100px',
+            targets: [ 6 ]
+        }]
+    });
+
+    $('.datatable-basic-7').DataTable({
+        columnDefs: [{ 
+            orderable: false,
+            width: '100px',
+            targets: [ 7 ]
+        }]
+    });
+
+    $('.datatable-basic-9').DataTable({
+        columnDefs: [{ 
+            orderable: false,
+            width: '100px',
+            targets: [ 9 ]
+        }],
+        order: [ 2, 'desc' ],
+        pageLength: 100 // ADP 2019/02/20 Default amount of records to show
+    });
+
+    $('.datatable-basic-10').DataTable({
+        columnDefs: [{
+            orderable: false,
+            width: '100px',
+            targets: [ 7 ]
+        }],
+        order: [[ 6, 'asc' ], [ 5, 'asc' ]]
+    });
+
+    $('.datatable-basic-11').DataTable({
+        columnDefs: [{
+            orderable: false,
+            width: '100px',
+            targets: [ 7 ]
+        }],
+        order: [[ 0, 'desc' ]]
+    });
+
+    // Alternative pagination
+    $('.datatable-pagination').DataTable({
+        pagingType: "simple",
+        language: {
+            paginate: {'next': 'Next &rarr;', 'previous': '&larr; Prev'}
+        }
+    });
+
+
+    // Datatable with saving state
+    $('.datatable-save-state').DataTable({
+        stateSave: true
+    });
+
+
+    // Scrollable datatable
+    $('.datatable-scroll-y').DataTable({
+        autoWidth: true,
+        scrollY: 300
+    });
+
+
+
+    // External table additions
+    // ------------------------------
+
+    // Enable Select2 select for the length option
+    $('.dataTables_length select').select2({
+        minimumResultsForSearch: Infinity,
+        width: 'auto'
+    });
+    
+});

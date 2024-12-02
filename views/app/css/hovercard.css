@@ -1,0 +1,24 @@
+.custom-hovercard {
+	width:340px;
+	border-top: 1px solid #CCC;
+	margin-top: -8px;
+	padding: 5px;
+}
+
+.custom-hovercard p {
+	margin-top:10px;
+
+}
+
+.more-contacts {
+	padding:8px;
+	background-color: #EFEFEF;
+	border: 1px solid silver;
+	margin-top:10px;
+
+}
+
+
+.contact .info {margin-left: 17px; min-height: 20px;}
+
+.contact .name b {background-color:#6C8393; padding: 5px; border-radius:4px;};
