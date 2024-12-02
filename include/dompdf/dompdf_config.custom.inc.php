@@ -1,4 +1,4 @@
-<?php 
+<?php declare(strict_types=1) 
 //define("DOMPDF_TEMP_DIR", "/tmp");
 //define("DOMPDF_CHROOT", DOMPDF_DIR);
 //define("DOMPDF_UNICODE_ENABLED", false);

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /*******************************************************************************
 * Utility to generate font definition files                                    *
 *                                                                              *
@@ -350,7 +350,7 @@ function SaveToFile($file, $s, $mode)
 
 function MakeDefinitionFile($file, $type, $enc, $embed, $subset, $map, $info)
 {
-	$s = "<?php\n";
+	$s = "<?php declare(strict_types=1)\n";
 	$s .= '$type = \''.$type."';\n";
 	$s .= '$name = \''.$info['FontName']."';\n";
 	$s .= '$desc = '.MakeFontDescriptor($info).";\n";

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Note extends AppModel {
 	
 	const table = 'notes';

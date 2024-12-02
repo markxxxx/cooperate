@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Snag extends AppModel {
 	
 	const table = 'snags';

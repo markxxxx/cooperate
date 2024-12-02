@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 $type = 'Core';
 $name = 'Times-Roman';
 $up = -100;

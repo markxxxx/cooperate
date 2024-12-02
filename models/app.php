@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class AppModel extends Model {
 
 	public function __construct($id = 0) {

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Message_template extends Model {
 
     const table = 'message_templates';

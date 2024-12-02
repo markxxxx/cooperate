@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /**
 * PHPMailer language file: refer to English translation for definitive list
 * Faroese Version [language of the Faroe Islands, a Danish dominion]

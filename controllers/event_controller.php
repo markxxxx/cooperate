@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 
 //This was all fine till the contacts where and
 

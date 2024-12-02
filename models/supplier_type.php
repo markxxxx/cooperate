@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Supplier_type extends Model {
 	
 	const table = 'supplier_types';

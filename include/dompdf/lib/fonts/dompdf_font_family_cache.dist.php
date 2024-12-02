@@ -1,4 +1,4 @@
-<?php return array (
+<?php declare(strict_types=1) return array (
   'sans-serif' => 
   array (
     'normal' => DOMPDF_FONT_DIR . 'Helvetica',

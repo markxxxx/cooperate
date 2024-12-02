@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class SettingController extends AppController {
 
 	private $per_page = 100;

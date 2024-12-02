@@ -52,7 +52,7 @@ include_path setting.
 ## A Simple Example
 
 ```php
-<?php
+<?php declare(strict_types=1)
 require 'class.phpmailer.php';
 
 $mail = new PHPMailer;

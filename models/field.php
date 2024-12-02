@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Field {
 	
 	public function __construct() {

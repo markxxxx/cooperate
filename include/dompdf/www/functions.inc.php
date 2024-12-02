@@ -1,4 +1,4 @@
-<?php 
+<?php declare(strict_types=1) 
 
 function auth_ok(){
   return isset($_SESSION["authenticated"]) && $_SESSION["authenticated"] === true;

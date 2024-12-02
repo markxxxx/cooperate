@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /**
  * @package dompdf
  * @link    http://www.dompdf.com/

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<title>PHP Speedy Admin | <?php echo $title ?></title>
+<title>PHP Speedy Admin | <?php declare(strict_types=1) echo $title ?></title>
 <link href="libs/css/forms.css" rel="stylesheet" type="text/css" />
 <link href="libs/css/grid.css" rel="stylesheet" type="text/css" />
 <link href="libs/css/ie.css" rel="stylesheet" type="text/css" />
@@ -48,7 +48,7 @@ color: #006600
 </style>
  
 <a href="http://aciddrop.com" target="_blank"><img src="images/php_speedy_logo_small.gif" alt="PHP Speedy" border="0" /></a>
-<?php require($page.".php") ?>
+<?php declare(strict_types=1) require($page.".php") ?>
 <body>
 </body>
 </html>

@@ -7,7 +7,7 @@ $rsvp</head>
 
 <body>
 
-<?php
+<?php declare(strict_types=1)
 echo "<p>Here's some dynamically generated text and some random circles...</p>";
 ?>
 
@@ -20,7 +20,7 @@ for ( $i = 0; $i < 30; $i++) {
                rand(1,40));
 }
 </script>
-<?php
+<?php declare(strict_types=1)
 echo "<p>Current PHP version: " . phpversion() . ".  ";
 echo "Today is " . strftime("%A") . " the " . strftime("%e").date("S").strftime(" of %B, %Y %T") . "</p>";
 

@@ -1,5 +1,5 @@
-<?php if(!empty($message)) { ?>
-<div class="success"><?php echo $message ?></div><?php } ?>
+<?php declare(strict_types=1) if(!empty($message)) { ?>
+<div class="success"><?php declare(strict_types=1) echo $message ?></div><?php declare(strict_types=1) } ?>
 
 <h1>Installation - Stage 3</h1>
 
@@ -38,7 +38,7 @@
 <p>We need to add in the PHP Speedy code <strong>before</strong> that. So you would add this to the very top of the page:
 <p>
 	  <span class="red">&lt;?php</span><br />
-	  <span class="green">require</span>(<span class="red">'<?php echo($paths['full']['current_directory']) ?>php_speedy.php'</span>);<br />
+	  <span class="green">require</span>(<span class="red">'<?php declare(strict_types=1) echo($paths['full']['current_directory']) ?>php_speedy.php'</span>);<br />
 	  <span class="red">?&gt;</span><br />
 </p>
 </p>
@@ -54,11 +54,11 @@
 
 <p>That's all you have to do. I recommend testing this out on a non-live site first, and then playing with the options to get optimal performance. To change the options you can:
 <ul>
-		<li>Manually edit the config.php file here: <?php echo($paths['full']['current_directory']) ?>config.php</li>
+		<li>Manually edit the config.php file here: <?php declare(strict_types=1) echo($paths['full']['current_directory']) ?>config.php</li>
 		<li>Just run this install again. It will remember your current options.</li>
 </ul>
 </p>
 <h2>Extra security</h2>
 
-<p>Although the package installs a username and password to access the install, you can also delete <?php echo($paths['full']['current_directory']) ?>install.php for extra security.
+<p>Although the package installs a username and password to access the install, you can also delete <?php declare(strict_types=1) echo($paths['full']['current_directory']) ?>install.php for extra security.
 </p>

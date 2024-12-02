@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Forum extends AppModel {
 	
 	const table = 'forums';

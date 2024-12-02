@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 
 // warning: this file is encoded in UTF-8!
 

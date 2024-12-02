@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Reference extends AppModel {
 	
 	const table = 'references';

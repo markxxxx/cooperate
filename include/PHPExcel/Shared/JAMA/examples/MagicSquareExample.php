@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /**
 * @package JAMA
 */
@@ -111,7 +111,7 @@ class MagicSquareExample {
         <th>lu_res</th>
         <th>qr_res</th>
       </tr>
-      <?php
+      <?php declare(strict_types=1)
       $start_time = $this->microtime_float();
       $eps = pow(2.0,-52.0);
       for ($n = 3; $n <= 6; ++$n) {

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /******
 *	This should of been called something else
 *    like calendar

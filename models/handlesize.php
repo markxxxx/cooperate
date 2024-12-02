@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Handlesize extends AppModel {
 	
 	const table = 'handlesizes';

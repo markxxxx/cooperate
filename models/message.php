@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Message extends AppModel {
 	
 	const table = 'messages';

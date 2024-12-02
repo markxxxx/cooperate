@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Setting extends Model {
 	
 	const table = 'settings';

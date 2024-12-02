@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /**
 * Simple example script using PHPMailer with exceptions enabled
 * @package phpmailer

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /**
  * A PHP class to provide the basic functionality to create a pdf document without
  * any requirement for additional modules.
@@ -1993,7 +1993,7 @@ EOT;
       if (file_exists($fontcache . $old_cache_name)) {
         $this->addMessage("openFont: php file doesn't exist $fontcache$cache_name, creating it from the old format");
         $old_cache = file_get_contents($fontcache . $old_cache_name);
-        file_put_contents($fontcache . $cache_name, '<?php return ' . $old_cache . ';');
+        file_put_contents($fontcache . $cache_name, '<?php declare(strict_types=1) return ' . $old_cache . ';');
         return $this->openFont($font);
       }
     }
@@ -2160,7 +2160,7 @@ EOT;
       //Because of potential trouble with php safe mode, expect that the folder already exists.
       //If not existing, this will hit performance because of missing cached results.
       if ( is_dir(substr($fontcache,0,-1)) && is_writable(substr($fontcache,0,-1)) ) {
-        file_put_contents($fontcache . $cache_name, '<?php return ' . var_export($data,  true) . ';');
+        file_put_contents($fontcache . $cache_name, '<?php declare(strict_types=1) return ' . var_export($data,  true) . ';');
       }
       $data = null;
     }

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Reminder extends Model {
 	
 	const table = 'reminders';

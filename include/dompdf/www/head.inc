@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 
 session_start();
 
@@ -24,11 +24,11 @@ auth_check();
   <link rel="SHORTCUT ICON" href="images/favicon.ico"/>
   <script type="text/javascript" src="jquery-1.4.2.js"></script>
   
-  <?php if (isset($_SESSION["auth_message"])) { ?>
+  <?php declare(strict_types=1) if (isset($_SESSION["auth_message"])) { ?>
     <script type="text/javascript">
-      alert("<?php echo $_SESSION["auth_message"]; ?>");
+      alert("<?php declare(strict_types=1) echo $_SESSION["auth_message"]; ?>");
     </script>
-  <?php } ?>
+  <?php declare(strict_types=1) } ?>
 $rsvp</head>    
 
 <body>

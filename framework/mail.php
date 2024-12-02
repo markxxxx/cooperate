@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 
 include 'include/phpmailer/class.phpmailer.php';
 include 'include/phpmailer/class.pop3.php';

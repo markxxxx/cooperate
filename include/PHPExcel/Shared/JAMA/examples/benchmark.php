@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 
 error_reporting(E_ALL);
 
@@ -258,6 +258,6 @@ switch($_REQUEST['decomposition']) {
 				</ul>
 			</li>
 		</ul>
-		<?php
+		<?php declare(strict_types=1)
 		break;
 }

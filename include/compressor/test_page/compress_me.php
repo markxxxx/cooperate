@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 if(empty($_GET['compress']) || $_GET['compress'] != "no") {
 require('../php_speedy.php');
 //$compressor->ignore('sound,builder');
@@ -75,7 +75,7 @@ margin-bottom:10px;
 		
 		</div>		
 		
-		<?php if(empty($_GET['no_images'])) { ?>
+		<?php declare(strict_types=1) if(empty($_GET['no_images'])) { ?>
 		
 		<h2>What were the speed gains?</h2>
 		<p>(Note the test were done before adding these images)</p>		
@@ -92,7 +92,7 @@ margin-bottom:10px;
 		<h3>This page with Yslow, after compression</h3>
 		<img src="compressed_yslow.gif" alt="Firebug before compression" />				
 		
-		<?php } ?>
+		<?php declare(strict_types=1) } ?>
 
 
 
@@ -105,7 +105,7 @@ new Control.Slider('handle1', 'track1', {
 });	
 </script>
 </html>
-<?php
+<?php declare(strict_types=1)
 if(empty($_GET['compress']) || $_GET['compress'] != "no") {
 $compressor->finish();
 }

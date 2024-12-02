@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 header('Content-type: text/html; charset=utf-8');
 
 // The following variables values must reflect your installation needs.
@@ -149,14 +149,14 @@ function print_checker_results() {
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<link rel="stylesheet" type="text/css" href="<?php echo $spellercss ?>" />
-<script language="javascript" src="<?php echo $word_win_src ?>"></script>
+<link rel="stylesheet" type="text/css" href="<?php declare(strict_types=1) echo $spellercss ?>" />
+<script language="javascript" src="<?php declare(strict_types=1) echo $word_win_src ?>"></script>
 <script language="javascript">
 var suggs = new Array();
 var words = new Array();
 var textinputs = new Array();
 var error;
-<?php
+<?php declare(strict_types=1)
 
 print_textinputs_var();
 

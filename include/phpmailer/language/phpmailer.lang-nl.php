@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /**
 * PHPMailer language file: refer to class.phpmailer.php for definitive list.
 * Dutch Version by Tuxion <team@tuxion.nl>

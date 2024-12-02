@@ -4,7 +4,7 @@
  
 <body>
 
-<?php
+<?php declare(strict_types=1)
 require_once('../class.phpmailer.php');
 require_once('../class.pop3.php'); // required for POP before SMTP
 

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Domain extends AppModel {
 	
 	const table = 'domains';

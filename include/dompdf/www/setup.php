@@ -1,4 +1,4 @@
-<?php include("head.inc"); ?>
+<?php declare(strict_types=1) include("head.inc"); ?>
 
 <a name="setup"> </a>
 <h2>Setup</h2>
@@ -10,7 +10,7 @@
 
 <h3 id="system">System Configuration</h3>
 
-<?php 
+<?php declare(strict_types=1) 
 require_once("../dompdf_config.inc.php");
 
 $server_configs = array(
@@ -75,12 +75,12 @@ if (($gm = extension_loaded("gmagick")) || ($im = extension_loaded("imagick"))) 
     <th>Present</th>
   </tr>
   
-  <?php foreach($server_configs as $label => $server_config) { ?>
+  <?php declare(strict_types=1) foreach($server_configs as $label => $server_config) { ?>
     <tr>
-      <td class="title"><?php echo $label; ?></td>
-      <td><?php echo ($server_config["required"] === true ? "Yes" : $server_config["required"]); ?></td>
-      <td class="<?php echo ($server_config["result"] ? "ok" : (isset($server_config["fallback"]) ? "warning" : "failed")); ?>">
-        <?php
+      <td class="title"><?php declare(strict_types=1) echo $label; ?></td>
+      <td><?php declare(strict_types=1) echo ($server_config["required"] === true ? "Yes" : $server_config["required"]); ?></td>
+      <td class="<?php declare(strict_types=1) echo ($server_config["result"] ? "ok" : (isset($server_config["fallback"]) ? "warning" : "failed")); ?>">
+        <?php declare(strict_types=1)
         echo $server_config["value"];
         if ($server_config["result"] && !$server_config["value"]) echo "Yes";
         if (!$server_config["result"]) {
@@ -94,13 +94,13 @@ if (($gm = extension_loaded("gmagick")) || ($im = extension_loaded("imagick"))) 
         ?>
       </td>
     </tr>
-  <?php } ?>
+  <?php declare(strict_types=1) } ?>
   
 </table>
 
 <h3 id="dompdf-config">DOMPDF Configuration</h3>
 
-<?php 
+<?php declare(strict_types=1) 
 $dompdf_constants = array();
 $defined_constants = get_defined_constants(true);
 
@@ -225,11 +225,11 @@ $constants = array(
     <th>Status</th>
   </tr>
   
-  <?php foreach($defined_constants["user"] as $const => $value) { ?>
+  <?php declare(strict_types=1) foreach($defined_constants["user"] as $const => $value) { ?>
     <tr>
-      <td class="title"><?php echo $const; ?></td>
+      <td class="title"><?php declare(strict_types=1) echo $const; ?></td>
       <td>
-      <?php 
+      <?php declare(strict_types=1) 
         if (isset($constants[$const]["secret"])) {
           echo "******";
         }
@@ -238,8 +238,8 @@ $constants = array(
         }
       ?>
       </td>
-      <td><?php if (isset($constants[$const]["desc"])) echo $constants[$const]["desc"]; ?></td>
-      <td <?php 
+      <td><?php declare(strict_types=1) if (isset($constants[$const]["desc"])) echo $constants[$const]["desc"]; ?></td>
+      <td <?php declare(strict_types=1) 
         $message = "";
         if (isset($constants[$const]["success"])) {
           switch($constants[$const]["success"]) {
@@ -277,11 +277,11 @@ $constants = array(
           }
           echo 'class="' . ($success ? "ok" : "failed") . '"';
         }
-      ?>><?php echo $message; ?></td>
+      ?>><?php declare(strict_types=1) echo $message; ?></td>
     </tr>
-  <?php } ?>
+  <?php declare(strict_types=1) } ?>
 
 </table>
 
 
-<?php include("foot.inc"); ?>
+<?php declare(strict_types=1) include("foot.inc"); ?>

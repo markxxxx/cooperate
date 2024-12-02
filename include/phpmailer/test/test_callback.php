@@ -4,7 +4,7 @@
  
 <body>
 
-<?php
+<?php declare(strict_types=1)
 /* This is a sample callback function for PHPMailer Lite.
  * This callback function will echo the results of PHPMailer processing.
  */

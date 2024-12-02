@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /*~ class.phpmailer.php
 .---------------------------------------------------------------------------.
 |  Software: PHPMailer - PHP email class                                    |

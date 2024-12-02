@@ -13,7 +13,7 @@
 </script>
  
 <body >
-<?php
+<?php declare(strict_types=1)
 
 echo 'Current PHP version: ' . phpversion() . "<br />";
 
@@ -138,36 +138,36 @@ if ( $_POST['submit'] == "Submit" ) {
   }
   ?>
   <form method="POST" enctype="multipart/form-data">
-  <?php $value = ( $_POST['From_Name'] != '' ) ? $_POST['From_Name'] : ''; ?>
-  <input type="hidden" name="From_Name" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['From_Email'] != '' ) ? $_POST['From_Email'] : ''; ?>
-  <input type="hidden" name="From_Email" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['To_Name'] != '' ) ? $_POST['To_Name'] : ''; ?>
-  <input type="hidden" name="To_Name" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['To_Email'] != '' ) ? $_POST['To_Email'] : ''; ?>
-  <input type="hidden" name="To_Email" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['cc_Email'] != '' ) ? $_POST['cc_Email'] : ''; ?>
-  <input type="hidden" name="cc_Email" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['bcc_Email'] != '' ) ? $_POST['bcc_Email'] : ''; ?>
-  <input type="hidden" name="bcc_Email" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['Subject'] != '' ) ? $_POST['Subject'] : ''; ?>
-  <input type="hidden" name="Subject" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['Message'] != '' ) ? $_POST['Message'] : ''; ?>
-  <input type="hidden" name="Message" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['test_type'] != '' ) ? $_POST['test_type'] : 'mail'; ?>
-  <input type="hidden" name="test_type" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['smtp_debug'] != '' ) ? $_POST['smtp_debug'] : $CFG['smtp_debug']; ?>
-  <input type="hidden" name="smtp_debug" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['smtp_server'] != '' ) ? $_POST['smtp_server'] : $CFG['smtp_server']; ?>
-  <input type="hidden" name="smtp_server" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['smtp_port'] != '' ) ? $_POST['smtp_port'] : $CFG['smtp_port']; ?>
-  <input type="hidden" name="smtp_port" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['smtp_authenticate'] != '' ) ? $_POST['smtp_authenticate'] : $CFG['smtp_authenticate']; ?>
-  <input type="hidden" name="smtp_authenticate" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['authenticate_username'] != '' ) ? $_POST['authenticate_username'] : $CFG['smtp_username']; ?>
-  <input type="hidden" name="authenticate_username" value="<?php echo $value; ?>">
-  <?php $value = ( $_POST['authenticate_password'] != '' ) ? $_POST['authenticate_password'] : $CFG['smtp_password']; ?>
-  <input type="hidden" name="authenticate_password" value="<?php echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['From_Name'] != '' ) ? $_POST['From_Name'] : ''; ?>
+  <input type="hidden" name="From_Name" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['From_Email'] != '' ) ? $_POST['From_Email'] : ''; ?>
+  <input type="hidden" name="From_Email" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['To_Name'] != '' ) ? $_POST['To_Name'] : ''; ?>
+  <input type="hidden" name="To_Name" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['To_Email'] != '' ) ? $_POST['To_Email'] : ''; ?>
+  <input type="hidden" name="To_Email" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['cc_Email'] != '' ) ? $_POST['cc_Email'] : ''; ?>
+  <input type="hidden" name="cc_Email" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['bcc_Email'] != '' ) ? $_POST['bcc_Email'] : ''; ?>
+  <input type="hidden" name="bcc_Email" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['Subject'] != '' ) ? $_POST['Subject'] : ''; ?>
+  <input type="hidden" name="Subject" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['Message'] != '' ) ? $_POST['Message'] : ''; ?>
+  <input type="hidden" name="Message" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['test_type'] != '' ) ? $_POST['test_type'] : 'mail'; ?>
+  <input type="hidden" name="test_type" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['smtp_debug'] != '' ) ? $_POST['smtp_debug'] : $CFG['smtp_debug']; ?>
+  <input type="hidden" name="smtp_debug" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['smtp_server'] != '' ) ? $_POST['smtp_server'] : $CFG['smtp_server']; ?>
+  <input type="hidden" name="smtp_server" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['smtp_port'] != '' ) ? $_POST['smtp_port'] : $CFG['smtp_port']; ?>
+  <input type="hidden" name="smtp_port" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['smtp_authenticate'] != '' ) ? $_POST['smtp_authenticate'] : $CFG['smtp_authenticate']; ?>
+  <input type="hidden" name="smtp_authenticate" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['authenticate_username'] != '' ) ? $_POST['authenticate_username'] : $CFG['smtp_username']; ?>
+  <input type="hidden" name="authenticate_username" value="<?php declare(strict_types=1) echo $value; ?>">
+  <?php declare(strict_types=1) $value = ( $_POST['authenticate_password'] != '' ) ? $_POST['authenticate_password'] : $CFG['smtp_password']; ?>
+  <input type="hidden" name="authenticate_password" value="<?php declare(strict_types=1) echo $value; ?>">
   <input type="submit" value="Start Over" name="submit">
   </form><br />
   <br />
@@ -181,7 +181,7 @@ class phpmailerAppException extends Exception {
 }
 
 try {
-  $to = <?php echo $_POST['To_Email']; ?>;
+  $to = <?php declare(strict_types=1) echo $_POST['To_Email']; ?>;
   if(filter_var($to, FILTER_VALIDATE_EMAIL) === FALSE) {
     throw new phpmailerAppException("Email address " . $to . " is invalid -- aborting!<br />");
   }
@@ -194,7 +194,7 @@ require_once("../class.phpmailer.php");
 
 $mail = new PHPMailer();
 
-<?php
+<?php declare(strict_types=1)
 if ( $_POST['Message'] == '' ) {
   echo '$body             = file_get_contents(\'contents.html\');' . "\n";
 } else {
@@ -220,20 +220,20 @@ if ( $_POST['test_type'] == "smtp" ) {
 }
 ?>
 
-$mail->AddReplyTo('<?php echo $_POST['From_Email']; ?>','<?php echo $_POST['From_Name']; ?>');
+$mail->AddReplyTo('<?php declare(strict_types=1) echo $_POST['From_Email']; ?>','<?php declare(strict_types=1) echo $_POST['From_Name']; ?>');
 
-$mail->From       = '<?php echo $_POST['From_Email']; ?>';
-$mail->FromName   = '<?php echo $_POST['From_Name']; ?>';
+$mail->From       = '<?php declare(strict_types=1) echo $_POST['From_Email']; ?>';
+$mail->FromName   = '<?php declare(strict_types=1) echo $_POST['From_Name']; ?>';
 
-<?php
+<?php declare(strict_types=1)
 if ( $_POST['To_Name'] != '' ) {
   ?>
-$mail->AddAddress('<?php echo $to; ?>','<?php echo $_POST['To_Name']; ?>');
-  <?php
+$mail->AddAddress('<?php declare(strict_types=1) echo $to; ?>','<?php declare(strict_types=1) echo $_POST['To_Name']; ?>');
+  <?php declare(strict_types=1)
 } else {
   ?>
-$mail->AddAddress('<?php echo $to; ?>');
-  <?php
+$mail->AddAddress('<?php declare(strict_types=1) echo $to; ?>');
+  <?php declare(strict_types=1)
 }
 if ( $_POST['bcc_Email'] != '' ) {
   $indiBCC = explode(" ", $_POST['bcc_Email']);
@@ -250,7 +250,7 @@ echo '$mail->AddCC(\'' . $value . '\');<br />';
 }
 ?>
 
-$mail->Subject  = <?php echo $_POST['Subject']; ?> (PHPMailer test using <?php echo strtoupper($_POST['test_type']); ?>)
+$mail->Subject  = <?php declare(strict_types=1) echo $_POST['Subject']; ?> (PHPMailer test using <?php declare(strict_types=1) echo strtoupper($_POST['test_type']); ?>)
 
 require_once('../class.html2text.inc');
 $h2t =& new html2text($body);
@@ -267,7 +267,7 @@ try {
     $error = "Unable to send to: " . $to . "<br />";
     throw new phpmailerAppException($error);
   } else {
-    echo 'Message has been sent using <?php echo strtoupper($_POST['test_type']); ?><br /><br />';
+    echo 'Message has been sent using <?php declare(strict_types=1) echo strtoupper($_POST['test_type']); ?><br /><br />';
   }
 } catch (phpmailerAppException $e) {
   $errorMsg[] = $e->errorMessage();
@@ -283,7 +283,7 @@ if ( count($errorMsg) > 0 ) {
 
 
 
-  <?php
+  <?php declare(strict_types=1)
 } else {
   ?>
   <style>
@@ -311,43 +311,43 @@ if ( count($errorMsg) > 0 ) {
         <table border="1" width="450" cellspacing="0" cellpadding="5" style="border-collapse: collapse;" bgcolor="#FFFFFF">
           <tr>
             <td class="colleft">From Name</td>
-            <?php $value = ( $_POST['From_Name'] != '' ) ? $_POST['From_Name'] : ''; ?>
-            <td class="colrite"><input type="text" name="From_Name" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['From_Name'] != '' ) ? $_POST['From_Name'] : ''; ?>
+            <td class="colrite"><input type="text" name="From_Name" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">From Email Address</td>
-            <?php $value = ( $_POST['From_Email'] != '' ) ? $_POST['From_Email'] : ''; ?>
-            <td class="colrite"><input type="text" name="From_Email" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['From_Email'] != '' ) ? $_POST['From_Email'] : ''; ?>
+            <td class="colrite"><input type="text" name="From_Email" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">To Name</td>
-            <?php $value = ( $_POST['To_Name'] != '' ) ? $_POST['To_Name'] : ''; ?>
-            <td class="colrite"><input type="text" name="To_Name" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['To_Name'] != '' ) ? $_POST['To_Name'] : ''; ?>
+            <td class="colrite"><input type="text" name="To_Name" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">To Email Address</td>
-            <?php $value = ( $_POST['To_Email'] != '' ) ? $_POST['To_Email'] : ''; ?>
-            <td class="colrite"><input type="text" name="To_Email" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['To_Email'] != '' ) ? $_POST['To_Email'] : ''; ?>
+            <td class="colrite"><input type="text" name="To_Email" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">cc Email Addresses <small>(separate with commas)</small></td>
-            <?php $value = ( $_POST['cc_Email'] != '' ) ? $_POST['cc_Email'] : ''; ?>
-            <td class="colrite"><input type="text" name="cc_Email" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['cc_Email'] != '' ) ? $_POST['cc_Email'] : ''; ?>
+            <td class="colrite"><input type="text" name="cc_Email" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">bcc Email Addresses <small>(separate with commas)</small></td>
-            <?php $value = ( $_POST['bcc_Email'] != '' ) ? $_POST['bcc_Email'] : ''; ?>
-            <td class="colrite"><input type="text" name="bcc_Email" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['bcc_Email'] != '' ) ? $_POST['bcc_Email'] : ''; ?>
+            <td class="colrite"><input type="text" name="bcc_Email" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">Subject</td>
-            <?php $value = ( $_POST['Subject'] != '' ) ? $_POST['Subject'] : ''; ?>
-            <td class="colrite"><input type="text" name="Subject" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['Subject'] != '' ) ? $_POST['Subject'] : ''; ?>
+            <td class="colrite"><input type="text" name="Subject" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">Message<br /><small>If blank, will use content.html</small></td>
-            <?php $value = ( $_POST['Message'] != '' ) ? $_POST['Message'] : ''; ?>
-            <td class="colrite"><textarea name="Message" style="width:99%;height:50px;"><?php echo $value; ?></textarea></td>
+            <?php declare(strict_types=1) $value = ( $_POST['Message'] != '' ) ? $_POST['Message'] : ''; ?>
+            <td class="colrite"><textarea name="Message" style="width:99%;height:50px;"><?php declare(strict_types=1) echo $value; ?></textarea></td>
           </tr>
         </table>
       </td>
@@ -357,19 +357,19 @@ if ( count($errorMsg) > 0 ) {
             <td class="colleft">Test Type</td>
             <td class="colrite"><table>
                 <tr>
-                  <td><input type="radio" name="test_type" value="mail" <?php echo ( $_POST['test_type'] == 'mail') ? 'checked' : ''; ?>></td>
+                  <td><input type="radio" name="test_type" value="mail" <?php declare(strict_types=1) echo ( $_POST['test_type'] == 'mail') ? 'checked' : ''; ?>></td>
                   <td>Mail()</td>
                 </tr>
                 <tr>
-                  <td><input type="radio" name="test_type" value="sendmail" <?php echo ( $_POST['test_type'] == 'sendmail') ? 'checked' : ''; ?>></td>
+                  <td><input type="radio" name="test_type" value="sendmail" <?php declare(strict_types=1) echo ( $_POST['test_type'] == 'sendmail') ? 'checked' : ''; ?>></td>
                   <td>Sendmail</td>
                 </tr>
                 <tr>
-                  <td><input type="radio" name="test_type" value="qmail" <?php echo ( $_POST['test_type'] == 'qmail') ? 'checked' : ''; ?>></td>
+                  <td><input type="radio" name="test_type" value="qmail" <?php declare(strict_types=1) echo ( $_POST['test_type'] == 'qmail') ? 'checked' : ''; ?>></td>
                   <td>Qmail</td>
                 </tr>
                 <tr>
-                  <td><input type="radio" name="test_type" value="smtp" <?php echo ( $_POST['test_type'] == 'smtp') ? 'checked' : ''; ?>></td>
+                  <td><input type="radio" name="test_type" value="smtp" <?php declare(strict_types=1) echo ( $_POST['test_type'] == 'smtp') ? 'checked' : ''; ?>></td>
                   <td>SMTP</td>
                 </tr>
               </table>
@@ -380,37 +380,37 @@ if ( count($errorMsg) > 0 ) {
         <table border="1" width="450" cellspacing="0" cellpadding="5" style="border-collapse: collapse;" bgcolor="#FFFFFF">
           <tr>
             <td class="colleft">SMTP Debug ?</td>
-            <?php $value = ( $_POST['smtp_debug'] != '' ) ? $_POST['smtp_debug'] : $CFG['smtp_debug']; ?>
+            <?php declare(strict_types=1) $value = ( $_POST['smtp_debug'] != '' ) ? $_POST['smtp_debug'] : $CFG['smtp_debug']; ?>
             <td class="colrite"><select size="1" name="smtp_debug">
-              <option <?php echo ( $value == '0') ? 'selected' : ''; ?> value="0">0 - Disabled</option>
-              <option <?php echo ( $value == '1') ? 'selected' : ''; ?> value="1">1 - Errors and Messages</option>
-              <option <?php echo ( $value == '2') ? 'selected' : ''; ?> value="2">2 - Messages only</option>
+              <option <?php declare(strict_types=1) echo ( $value == '0') ? 'selected' : ''; ?> value="0">0 - Disabled</option>
+              <option <?php declare(strict_types=1) echo ( $value == '1') ? 'selected' : ''; ?> value="1">1 - Errors and Messages</option>
+              <option <?php declare(strict_types=1) echo ( $value == '2') ? 'selected' : ''; ?> value="2">2 - Messages only</option>
               </select></td>
           </tr>
           <tr>
             <td class="colleft">SMTP Server</td>
-            <?php $value = ( $_POST['smtp_server'] != '' ) ? $_POST['smtp_server'] : $CFG['smtp_server']; ?>
-            <td class="colrite"><input type="text" name="smtp_server" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['smtp_server'] != '' ) ? $_POST['smtp_server'] : $CFG['smtp_server']; ?>
+            <td class="colrite"><input type="text" name="smtp_server" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">SMTP Port</td>
-            <?php $value = ( $_POST['smtp_port'] != '' ) ? $_POST['smtp_port'] : $CFG['smtp_port']; ?>
-            <td class="colrite"><input type="text" name="smtp_port" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['smtp_port'] != '' ) ? $_POST['smtp_port'] : $CFG['smtp_port']; ?>
+            <td class="colrite"><input type="text" name="smtp_port" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">SMTP Authenticate ?</td>
-            <?php $value = ( $_POST['smtp_authenticate'] != '' ) ? $_POST['smtp_authenticate'] : $CFG['smtp_authenticate']; ?>
-            <td class="colrite"><input type="checkbox" name="smtp_authenticate" <?php if ($value!=''){ echo "checked";} ?> value="<?php echo $value; ?>"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['smtp_authenticate'] != '' ) ? $_POST['smtp_authenticate'] : $CFG['smtp_authenticate']; ?>
+            <td class="colrite"><input type="checkbox" name="smtp_authenticate" <?php declare(strict_types=1) if ($value!=''){ echo "checked";} ?> value="<?php declare(strict_types=1) echo $value; ?>"></td>
           </tr>
           <tr>
             <td class="colleft">Authenticate Username</td>
-            <?php $value = ( $_POST['authenticate_username'] != '' ) ? $_POST['authenticate_username'] : $CFG['smtp_username']; ?>
-            <td class="colrite"><input type="text" name="authenticate_username" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['authenticate_username'] != '' ) ? $_POST['authenticate_username'] : $CFG['smtp_username']; ?>
+            <td class="colrite"><input type="text" name="authenticate_username" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
           <tr>
             <td class="colleft">Authenticate Password</td>
-            <?php $value = ( $_POST['authenticate_password'] != '' ) ? $_POST['authenticate_password'] : $CFG['smtp_password']; ?>
-            <td class="colrite"><input type="password" name="authenticate_password" value="<?php echo $value; ?>" style="width:99%;"></td>
+            <?php declare(strict_types=1) $value = ( $_POST['authenticate_password'] != '' ) ? $_POST['authenticate_password'] : $CFG['smtp_password']; ?>
+            <td class="colrite"><input type="password" name="authenticate_password" value="<?php declare(strict_types=1) echo $value; ?>" style="width:99%;"></td>
           </tr>
         </table>
       </td>
@@ -421,7 +421,7 @@ if ( count($errorMsg) > 0 ) {
   <br />
   <input type="submit" value="Submit" name="submit">
   </form>
-  <?php
+  <?php declare(strict_types=1)
 }
 
 ?>

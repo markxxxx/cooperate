@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 
 include_once ROOT.DIRECTORY_SEPARATOR.'include/smarty_new/libs/Smarty.class.php';
 

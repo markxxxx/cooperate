@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 
 class Profiler {
 
@@ -166,7 +166,7 @@ class Profiler {
 		if($stop === false)
 			$stop = strpos($haystack,'?>',20) ;
 
-		$return .= highlight_string("<?php \r\n ".substr($haystack,0,$stop).'?>',1);
+		$return .= highlight_string("<?php declare(strict_types=1) \r\n ".substr($haystack,0,$stop).'?>',1);
 		$return .= "<br /><br /><b>Controller Instant</b><pre>".var_export($_controller,1).'</pre>';
 		
 		return $return;

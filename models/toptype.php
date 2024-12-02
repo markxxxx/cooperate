@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Toptype extends AppModel {
 	
 	const table = 'toptypes';

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 //We need these
 require("controller/admin.php");
 require("libs/php/view.php");

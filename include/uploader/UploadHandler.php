@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /*
  * jQuery File Upload Plugin PHP Class 7.1.4
  * https://github.com/blueimp/jQuery-File-Upload

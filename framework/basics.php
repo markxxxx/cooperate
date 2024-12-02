@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 
 DEFINE('MINUTE'	,60); 
 DEFINE('HOUR'	,3600);

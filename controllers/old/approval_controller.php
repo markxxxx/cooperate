@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class ApprovalController extends AppController {
 
 	private function can_approve($approval_id) {

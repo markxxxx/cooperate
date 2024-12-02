@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /**
  * Gzips and minifies the JavaScript and CSS within the head tags of a page. 
  * Can also gzip and minify the page itself
@@ -743,13 +743,13 @@ class compressor {
 	foreach($types AS $type) {
 			
 		//Always send etag
-		$this->gzip_header[$type] = '<?php	
+		$this->gzip_header[$type] = '<?php declare(strict_types=1)	
 			$hash = md5($_SERVER[\'SCRIPT_FILENAME\']);
 			header ("Etag: \"" . $hash . "\"");		
 ?>';			
 	
 		//Send 304?
-		$this->gzip_header[$type] .= '<?php	
+		$this->gzip_header[$type] .= '<?php declare(strict_types=1)	
 				
 			if (isset($_SERVER[\'HTTP_IF_NONE_MATCH\']) && 
 				stripslashes($_SERVER[\'HTTP_IF_NONE_MATCH\']) == \'"\' . $hash . \'"\') 	{
@@ -763,7 +763,7 @@ class compressor {
 				
 	
 		if(!empty($this->options[$type]['gzip'])) { ////ob_start ("ob_gzhandler");					
-			$this->gzip_header[$type] .= '<?php	
+			$this->gzip_header[$type] .= '<?php declare(strict_types=1)	
 				ob_start("compress_output_option");
 				function compress_output_option($contents) {
 				
@@ -801,13 +801,13 @@ class compressor {
 		}
 	
 		if(!empty($this->options[$type]['far_future_expires'])) {
-			$this->gzip_header[$type] .= '<?php	
+			$this->gzip_header[$type] .= '<?php declare(strict_types=1)	
 				header("Cache-Control: must-revalidate");
 				header("' . $ExpStr . '");
 ?>';	
 		}
 		
-			$this->gzip_header[$type] .= '<?php	
+			$this->gzip_header[$type] .= '<?php declare(strict_types=1)	
 				header("Content-type: text/' . $type .'; charset: UTF-8");
 ?>';	
 								

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /* vim: set expandtab tabstop=4 shiftwidth=4: */
 // +----------------------------------------------------------------------+
 // | PHP Version 4                                                        |

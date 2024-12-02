@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 /**
  * @package php-font-lib
  * @link    http://php-font-lib.googlecode.com/

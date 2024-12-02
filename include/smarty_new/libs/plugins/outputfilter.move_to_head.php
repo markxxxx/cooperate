@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 function smarty_outputfilter_move_to_head($tpl_output, &$smarty)
 {
     $matches = array();

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Booking extends AppModel {
 	
 	const table = 'bookings';

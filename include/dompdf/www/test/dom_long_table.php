@@ -20,13 +20,13 @@ td {
 <td colspan="20">Footer</td>
 </tr>
 </tfoot>
-<?php
+<?php declare(strict_types=1)
 $i_max = 40;
 $j_max = 20;
 
 for ( $i = 1; $i <= $i_max; $i++): ?>
 <tr>
-<?php
+<?php declare(strict_types=1)
 for ( $j = 1; $j <= $j_max; $j++) {
   $r = (int)(255*$i / $i_max);
   $b = (int)(255*$j / $j_max);
@@ -37,7 +37,7 @@ for ( $j = 1; $j <= $j_max; $j++) {
 }
 ?>
 </tr>
-<?php endfor; ?>
+<?php declare(strict_types=1) endfor; ?>
 </table>
 </body>
 </html>

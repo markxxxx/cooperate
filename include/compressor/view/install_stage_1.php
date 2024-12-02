@@ -1,4 +1,4 @@
-<?php if(!empty($message)) { ?><div class="success"><?php echo $message ?></div><?php } ?>
+<?php declare(strict_types=1) if(!empty($message)) { ?><div class="success"><?php declare(strict_types=1) echo $message ?></div><?php declare(strict_types=1) } ?>
 
 <h1>Installation - Stage 1</h1>
 
@@ -7,7 +7,7 @@
 <fieldset>
 	<legend>Path Information</legend>
 	<label>Your full path to document root:</label>
-		<div class="info"><?php echo $paths['full']['document_root'] ?></div>	
+		<div class="info"><?php declare(strict_types=1) echo $paths['full']['document_root'] ?></div>	
 	<form method="post" enctype="multipart/form-data" action="">
 			
 			<p>			
@@ -19,14 +19,14 @@
 		
 		<h4>Wait! That's not it...</h4>	
 		<p><strong>Is the above path incorrect?</strong> If so, please enter the correct path
-		<input type="text" name="user[document_root]" class="long_text" value="<?php echo $document_root ?>" />
+		<input type="text" name="user[document_root]" class="long_text" value="<?php declare(strict_types=1) echo $document_root ?>" />
 		</p>	
 			
 		<input type="submit" name="submit" value="Next..." />	
 		<input type="hidden" name="page" value="install_stage_2" />
 		
-		<input type="hidden" name="user[_username]" value="<?php echo $compress_options['username'] ?>" />
-		<input type="hidden" name="user[_password]" value="<?php echo $compress_options['password'] ?>" />
+		<input type="hidden" name="user[_username]" value="<?php declare(strict_types=1) echo $compress_options['username'] ?>" />
+		<input type="hidden" name="user[_password]" value="<?php declare(strict_types=1) echo $compress_options['password'] ?>" />
 	
 	</form>	
 		

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Action extends AppModel {
 	
 	const table = 'actions';

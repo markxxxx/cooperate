@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1)
 class Payment extends AppModel {
 	
 	const table = 'payments';

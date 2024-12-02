@@ -1,9 +1,9 @@
-<?php
+<?php declare(strict_types=1)
 
 require_once("../dompdf_config.inc.php");
 
 ?>
-<?php include("head.inc"); ?>
+<?php declare(strict_types=1) include("head.inc"); ?>
 
 <script type="text/javascript">
 function resizePreview(){
@@ -32,7 +32,7 @@ $(function(){
 these files is included in the test/ directory of the distribution
 package.)</p>
 
-<?php
+<?php declare(strict_types=1)
 
 $extensions = array("html");
 if ( DOMPDF_ENABLE_PHP ) {
@@ -93,4 +93,4 @@ foreach ( $sections as $section => $files ) {
 }
 ?>
 
-<?php include("foot.inc"); ?>
+<?php declare(strict_types=1) include("foot.inc"); ?>
