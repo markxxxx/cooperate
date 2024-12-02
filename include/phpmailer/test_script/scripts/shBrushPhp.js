@@ -44,7 +44,7 @@ SyntaxHighlighter.brushes.Php = function()
 					'bzdecompress bzerrno bzerror bzerrstr bzflush bzopen bzread bzwrite ceil chdir '+
 					'checkdate checkdnsrr chgrp chmod chop chown chr chroot chunk_split class_exists '+
 					'closedir closelog copy cos cosh count count_chars date decbin dechex decoct '+
-					'deg2rad delete ebcdic2ascii echo empty end ereg ereg_replace eregi eregi_replace error_log '+
+					'deg2rad delete ebcdic2ascii echo empty end ereg preg_replace eregi eregi_replace error_log '+
 					'error_reporting escapeshellarg escapeshellcmd eval exec exit exp explode extension_loaded '+
 					'feof fflush fgetc fgetcsv fgets fgetss file_exists file_get_contents file_put_contents '+
 					'fileatime filectime filegroup fileinode filemtime fileowner fileperms filesize filetype '+
