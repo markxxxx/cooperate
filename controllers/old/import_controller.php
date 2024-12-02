@@ -116,8 +116,8 @@ class ImportController extends AppController {
 
 		fclose($file);
 
-		//$con = @mysql_connect($databasehost,$databaseusername,$databasepassword) or die(mysql_error());
-		//@mysql_select_db($databasename) or die(mysql_error());
+		//$con = @mysqli_connect($databasehost,$databaseusername,$databasepassword) or die(mysqli_error());
+		//@mysqli_select_db($databasename) or die(mysqli_error());
 
 		$lines = 0;
 		$queries = "";
@@ -205,12 +205,12 @@ class ImportController extends AppController {
 
 			//$query="START TRANSACTION;".$first.$second."COMMIT;";
 					
-			//@mysql_query($query);
+			//@mysqli_query($query);
 			Database::query($first)->insert_id();
 			Database::query($second)->insert_id();
 		}
 
-		//@mysql_close($con);
+		//@mysqli_close($con);
 
 		if($save) {
 			
